@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankingApp.LOGINPage" NavigationPage.HasNavigationBar="False" >
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="loginp1.jpg" HeightRequest="200" Aspect="AspectFill" HorizontalOptions="Fill"/>
+            <Button BackgroundColor="#2196F3"  Text="SIGN-IN" Clicked="BankingApp_Clicked" TextColor="White"/>
+            <Button BackgroundColor="#2196F3" Text="FORGOT PIN" Clicked="ROMOTE_Clicked" TextColor="White" />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+            
+
+                <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Row="0" Grid.Column="0">
+
+                        <ImageButton Source="buypre.jpg" BackgroundColor="White" HeightRequest="50"  Clicked="BuyPrePaid_Clicked"/>
+                        <Label Text="Buy Prepaid Mobile" FontSize="Small" TextColor="Black" FontAttributes="Bold" />
+
+
+
+                </StackLayout>
+
+
+                <StackLayout Margin="30" Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="1">
+
+                        <ImageButton Source="electnew.jpg" BackgroundColor="White" HeightRequest="50"  Clicked="BuyElectricity_Clicked"/>
+                         <Label Text="Buy Electricity" FontSize="Small" TextColor="Black" FontAttributes="Bold" />
+
+                </StackLayout>
+
+
+                <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Row="1" Grid.Column="0">
+
+
+                    <ImageButton Source="paynew.jpg" BackgroundColor="White" HeightRequest="50"  Clicked="PayBeneficiary_Clicked"/>
+                    <Label Text="Pay Beneficiary" FontSize="Small" TextColor="Black" FontAttributes="Bold" />
+
+
+
+                </StackLayout>
+
+
+                <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Row="1" Grid.Column="2">
+
+
+                    <ImageButton Source="Trans.jpg" BackgroundColor="White" HeightRequest="50"  Clicked="TransferMoney_Clicked"/>
+                    <Label Text="Transfer Money" FontSize="Small" TextColor="Black" FontAttributes="Bold" />
+
+
+
+                </StackLayout>
+
+
+                <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.Row="3" Grid.Column="0">
+
+
+                    <ImageButton Source="tracknew.jpg" BackgroundColor="White" HeightRequest="50"  Clicked="TrackMoney_Clicked"/>
+                    <Label Text="Track Money" FontSize="Small" TextColor="Black" FontAttributes="Bold" />
+
+
+
+                </StackLayout>
+
+            </Grid>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

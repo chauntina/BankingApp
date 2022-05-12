@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankingApp.DetailsPage">
+    
+    <ContentPage.Content>
+
+
+        <StackLayout BackgroundColor="White" >
+            
+            <Image Source="page1st.jgp" BackgroundColor="White" HeightRequest="100" Aspect="Fill" HorizontalOptions="Fill"/>
+            <Image Source="page1new.jgp" BackgroundColor="White" HeightRequest="490" Aspect="Fill" HorizontalOptions="FillAndExpand"/>
+            <Image Source="page3.jgp" HeightRequest="220" Aspect="AspectFit" HorizontalOptions="FillAndExpand"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
